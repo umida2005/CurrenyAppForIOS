@@ -35,11 +35,6 @@
 			path = CurrenyApp;
 			sourceTree = "<group>";
 		};
-		04492A842E78763B00A7F04E /* CurrenyAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CurrenyAppTests;
-			sourceTree = "<group>";
-		};
 		04492A8E2E78763B00A7F04E /* CurrenyAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CurrenyAppUITests;
@@ -76,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				04492A762E78763900A7F04E /* CurrenyApp */,
-				04492A842E78763B00A7F04E /* CurrenyAppTests */,
 				04492A8E2E78763B00A7F04E /* CurrenyAppUITests */,
 				04492A752E78763900A7F04E /* Products */,
 			);
@@ -130,9 +124,6 @@
 			dependencies = (
 				04492A832E78763B00A7F04E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				04492A842E78763B00A7F04E /* CurrenyAppTests */,
-			);
 			name = CurrenyAppTests;
 			packageProductDependencies = (
 			);
@@ -171,7 +162,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					04492A732E78763900A7F04E = {
 						CreatedOnToolsVersion = 16.4;
@@ -186,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04492A6F2E78763900A7F04E /* Build configuration list for PBXProject "CurrenyApp" */;
+			buildConfigurationList = 04492A6F2E78763900A7F04E /* Build configuration list for PBXProject "CurrencyApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -327,6 +318,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -383,6 +375,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -513,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04492A6F2E78763900A7F04E /* Build configuration list for PBXProject "CurrenyApp" */ = {
+		04492A6F2E78763900A7F04E /* Build configuration list for PBXProject "CurrencyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04492A932E78763B00A7F04E /* Debug */,
